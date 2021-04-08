@@ -1,5 +1,5 @@
 {
-    "name": "picoss/yousign-bundle",
+    "name": "dylangd/yousign-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 YouSign bundle",
     "keywords": [
@@ -8,12 +8,6 @@
         "yousign"
     ],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Romain Honel",
-            "email": "r.honel@yeswehack.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Picoss\\YousignBundle\\": ""
