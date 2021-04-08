@@ -10,7 +10,7 @@
 
 namespace Picoss\YousignBundle\Yousign;
 
-use Picoss\YousignBundle\Yousign\Client\Authentication as BaseAuthentication;
+use Yousign\Authentication as BaseAuthentication;
 
 /**
  * Class Authentication

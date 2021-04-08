@@ -36,6 +36,9 @@ class EnvironmentTest extends TestCase
         $this->assertSame('https://yousign.fr', $environment->getIframeHost());
     }
 
+    /**
+     * @expectedException Yousign\Exception\EnvironmentException
+     */
     public function testInvalidEnv()
     {
         new Environment('foo');

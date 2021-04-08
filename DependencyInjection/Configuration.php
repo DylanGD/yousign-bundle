@@ -13,7 +13,7 @@ namespace Picoss\YousignBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
-use Picoss\YousignBundle\Yousign\Client\Environment;
+use Yousign\Environment;
 
 /**
  * Class Configuration

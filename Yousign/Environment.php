@@ -10,7 +10,7 @@
 
 namespace Picoss\YousignBundle\Yousign;
 
-use Picoss\YousignBundle\Yousign\Client\Environment as BaseEnvironment;
+use Yousign\Environment as BaseEnvironment;
 
 /**
  * Class Environment

@@ -11,9 +11,9 @@
 namespace Picoss\YousignBundle\Yousign;
 
 use Psr\Log\LoggerInterface;
-use Picoss\YousignBundle\Yousign\Client\Authentication;
-use Picoss\YousignBundle\Yousign\Client\Client as BaseClient;
-use Picoss\YousignBundle\Yousign\Client\Services;
+use Yousign\Authentication;
+use Yousign\Client as BaseClient;
+use Yousign\Services;
 
 /**
  * Class Client

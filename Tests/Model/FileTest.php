@@ -16,7 +16,7 @@ use Picoss\YousignBundle\Model\File;
 use Picoss\YousignBundle\Yousign\Client;
 use Picoss\YousignBundle\Yousign\Environment;
 use Psr\Log\NullLogger;
-use Picoss\YousignBundle\Yousign\Client\Authentication;
+use Yousign\Authentication;
 
 /**
  * Class FileTest
