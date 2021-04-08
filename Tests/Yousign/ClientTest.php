@@ -14,7 +14,7 @@ use PHPUnit\Framework\TestCase;
 use Picoss\YousignBundle\Yousign\Client;
 use Picoss\YousignBundle\Yousign\Environment;
 use Psr\Log\NullLogger;
-use Yousign\Authentication;
+use Picoss\YousignBundle\Yousign\Client\Authentication;
 
 /**
  * Class ClientTest

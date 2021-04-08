@@ -13,7 +13,7 @@ namespace Picoss\YousignBundle\Tests\DependencyInjection;
 use Picoss\YousignBundle\DependencyInjection\PicossYousignExtension;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Yousign\Authentication;
+use Picoss\YousignBundle\Yousign\Client\Authentication;
 
 /**
  * Class PicossYousignExtensionTest
